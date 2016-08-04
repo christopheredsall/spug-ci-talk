@@ -1,0 +1,14 @@
+machine:
+  timezone:
+    Eurpoe/London
+  python:
+    version: 3.5.0
+
+dependancies:
+  pre:
+    - pip install pytest
+
+test:
+  override:
+    - py.test -v
+
